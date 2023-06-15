@@ -24,9 +24,9 @@ const responsive = {
 
 const Contact = () => {
   return (
-    <section className="bg-gray-900 py-20 justify-center w-[100%]">
+    <section className="bg-gray-900 py-20 justify-center w-[100%] px-5 sm:px-20 ">
         <center>
-      <div className="container mx-auto">
+      <div className="container mt-7">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Get In Touch</h2>
         <h2 className="text-base mt-5 text-red-500 font-semibold tracking-wide uppercase">
             You can reach out to me by following ways
@@ -47,21 +47,21 @@ const Contact = () => {
           removeArrowOnDeviceType={['tablet', 'mobile']}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
-          className=' w-[95%] sm:w-[60%] '
+          className=' w-[95%] sm:w-[60%] shadow-xl'
           >
         
           <div className=" text-white bg-gray-800 rounded-lg p-8 flex flex-col items-center justify-center">
             <FaEnvelope className="text-3xl mb-2" />
             <h3 className="text-xl font-bold mb-2">Email</h3>
             <a href="mailto:youremail@example.com" className="text-blue-500 hover:text-blue-700 transition duration-300">
-              youremail@example.com
+              2002anuragksingh@gmail.com
             </a>
           </div>
           <div className="text-white bg-gray-800 rounded-lg p-8 flex flex-col items-center justify-center">
             <FaPhoneAlt className="text-3xl mb-2" />
             <h3 className="text-xl font-bold mb-2">Phone</h3>
             <a href="tel:+1234567890" className="text-blue-500 hover:text-blue-700 transition duration-300">
-              +1234567890
+              +91 8839298745
             </a>
           </div>
           <div className="text-white bg-gray-800 rounded-lg p-8 flex flex-col items-center justify-center">

@@ -4,6 +4,7 @@ import About from "./components/about"
 import Project from "./components/projects"
 import Experience from "./components/experience"
 import Contact from "./components/contact"
+import Game from "./components/game"
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Project />
       <Experience />
+      <Game />
+      <Project />
       <Contact />
     </div>
   )

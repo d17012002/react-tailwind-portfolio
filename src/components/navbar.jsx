@@ -8,7 +8,7 @@ function Navbar() {
               {"</ anurag kumar >"}
             </a>
           </div>
-          <div className=" grid justify-items-end h-[100%]">
+          <div className=" grid justify-items-end h-[100%] roll-animation">
             <img className=" w-[3.5rem] sm:w-[3.5rem] rounded-full" src="https://i.pinimg.com/originals/e2/ff/74/e2ff7495b48676fb50c374f9f4db42bd.jpg" />
           </div>
           

@@ -25,3 +25,23 @@
     background: #c73333;
   }
   
+  .roll-animation{
+    animation-name: rollin;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  
+  }
+  
+  @keyframes rollin {
+      from {
+        position: relative;
+        right: 75%;
+        transform: rotate(0deg); /* Equal to rotateZ(45deg) */
+      }
+      
+      to {
+        position: relative;
+        right: 0%;
+        transform: rotate(720deg); /* Equal to rotateZ(45deg) */
+      }
+    }

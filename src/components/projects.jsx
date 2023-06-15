@@ -33,7 +33,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <div className="py-12 bg-gray-900" id="projects">
+    <div className="py-12 bg-gray-900 px-5 sm:px-20" id="projects">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <p className="text-3xl mt-20 md:text-4xl font-bold text-white mb-4">
@@ -49,7 +49,7 @@ const Project = () => {
             {projects.map((project) => (
               <li key={project.title} className="mt-10">
                 <a
-                  href={project.url}
+                  href={"google.com"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:opacity-75"

@@ -13,11 +13,11 @@ function Hero() {
 
   return (
     <section
-      className="bg-gray-900 p-20"
+      className="bg-gray-900 p-5 sm:p-20"
       onMouseMove={handleMouse}
     >
       <div className="container mx-auto px-4 mt-15 mb-15 sm:mb-20 ">
-        <div className="md:flex md:items-center  ">
+        <div className="md:flex md:items-center">
           <div className="md:w-1/2">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
               Welcome to My Portfolio
