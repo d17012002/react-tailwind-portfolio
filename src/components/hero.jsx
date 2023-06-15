@@ -41,7 +41,7 @@ function Hero() {
             transition={{ duration: 0.6 }}
           >
             <img
-              src="../src/assets/profile.jpg"
+              src="https://i.ibb.co/vD2ZwDD/profile.jpg"
               alt="Portfolio Hero Image"
               className="w-[14rem] sm:w-[20rem] mt-[3rem] sm:mt-[0rem] mx-auto rounded-lg shadow-lg"
             />

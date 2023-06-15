@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 const BIRD_HEIGHT = 28;
 const BIRD_WIDTH = 33;
 const WALL_HEIGHT = 350;
-const WALL_WIDTH = 350;
-const GRAVITY = 5;
+const WALL_WIDTH = 320;
+const GRAVITY = 4;
 const OBJ_WIDTH = 52;
 const OBJ_SPEED = 8;
 const OBJ_GAP = 200;
@@ -67,14 +67,18 @@ function App() {
     else setBirspos((birdpos) => birdpos - 50);
   };
   return (
-    <section className="bg-gray-900 p-5 sm:p-19 md:flex md:items-center ">
-      <div className="mx-10 px-4 md:w-1/2 ">
+    <section className="bg-gray-900 p-5 sm:p-19 md:flex md:items-center justify-center">
+      <div className="px-4 md:w-1/2">
         <center>
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">How far can you go?</h2>
-        <h1 className="text-base mt-5 text-red-500 font-semibold tracking-wide uppercase">{" < "}Flappy Bird Game {" /> "}</h1>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            How far can you go?
+          </h2>
+          <h1 className="text-base mt-5 text-red-500 font-semibold tracking-wide uppercase">
+            {" < "}Flappy Bird Game {" /> "}
+          </h1>
         </center>
       </div>
-      <div className="mx-auto px-4  md:w-1/2">
+      <div className="mx-0 px-0 md:w-1/2 flex justify-center">
         <Home onClick={handler}>
           <Background height={WALL_HEIGHT} width={WALL_WIDTH}>
             {!isStart ? <Startboard>Less Go!</Startboard> : null}
@@ -110,11 +114,10 @@ function App() {
 export default App;
 
 const Home = styled.div`
-  margin-left: 15%;
-  margin-top: 30px;
+
 `;
 const Background = styled.div`
-  background-image: url("../src/assets/background-day.png");
+  background-image: url("https://i.ibb.co/DKD22qt/background-day.png");
   background-repeat: no-repeat;
   background-size: ${(props) => props.width}px ${(props) => props.height}px;
   width: ${(props) => props.width}px;
@@ -127,7 +130,7 @@ const Background = styled.div`
 
 const Bird = styled.div`
   position: absolute;
-  background-image: url("../src/assets/yellowbird-upflap.png");
+  background-image: url("https://i.ibb.co/ZV6rGBn/yellowbird-upflap.png");
   background-repeat: no-repeat;
   background-size: ${(props) => props.width}px ${(props) => props.height}px;
   width: ${(props) => props.width}px;
@@ -138,7 +141,7 @@ const Bird = styled.div`
 
 const Obj = styled.div`
   position: relative;
-  background-image: url("../src/assets/pipe-green.png");
+  background-image: url("https://i.ibb.co/f0NZ7tc/pipe-green.png");
   width: ${(props) => props.width}px;
   height: ${(props) => props.height}px;
   left: ${(props) => props.left}px;

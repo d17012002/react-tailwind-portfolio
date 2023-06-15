@@ -5,29 +5,29 @@ const projects = [
     title: "Project 1",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id commodo elit, sed mattis metus. Integer et est ac neque sagittis lobortis eu vel augue.",
-    image: "../src/assets/project1.jpg",
-    url: "https://www.example.com/project1",
+    image: "https://i.ibb.co/S7ZXdt5/project1.jpg",
+    url: "https://invite-onweb.vercel.app/",
   },
   {
     title: "Project 2",
     description:
       "Duis sed mauris ut ex sagittis dapibus. Nulla non purus ullamcorper, eleifend ipsum vel, volutpat libero. Sed luctus convallis tellus non facilisis.",
-    image: "../src/assets/project2.JPG",
-    url: "https://www.example.com/project2",
+    image: "https://i.ibb.co/5YT0h3s/project2.jpg",
+    url: "https://vitb-review-system.onrender.com/",
   },
   {
     title: "Project 3",
     description:
       "Maecenas consequat aliquam neque, quis vestibulum velit accumsan quis. In hac habitasse platea dictumst. Suspendisse a purus lacinia, vulputate sapien vitae, tincidunt nisi.",
-    image: "../src/assets/project3.JPG",
-    url: "https://www.example.com/project3",
+    image: "https://i.ibb.co/PrjzkQY/project3.jpg",
+    url: "https://github.com/d17012002/recommendation-system",
   },
   {
     title: "Project 4",
     description:
       "Maecenas consequat aliquam neque, quis vestibulum velit accumsan quis. In hac habitasse platea dictumst. Suspendisse a purus lacinia, vulputate sapien vitae, tincidunt nisi.",
-    image: "../src/assets/project4.png",
-    url: "https://www.example.com/project3",
+    image: "https://i.ibb.co/7JJcG91/project4.png",
+    url: "https://github.com/d17012002/CrowdQuest-SIH-2022",
   },
 ];
 
@@ -49,7 +49,7 @@ const Project = () => {
             {projects.map((project) => (
               <li key={project.title} className="mt-10">
                 <a
-                  href={"google.com"}
+                  href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:opacity-75"
