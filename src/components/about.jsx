@@ -19,17 +19,15 @@ const About = () => {
           </div>
           <div className="px-5 sm:px-20">
             <p className="text-lg md:text-xl text-gray-400 mb-6 w-[98%] sm:w-[40rem]">
-              Hi, my name is John Doe and I am a full-stack web developer with 5
-              years of experience. I have worked on various projects ranging
+              Hi, my name is Anurag Kumar and I am a full-stack web developer. I have worked on various projects ranging
               from e-commerce websites to social networking applications. I am
               passionate about building elegant and functional web applications
               that provide great user experiences.
             </p>
             <p className="text-lg md:text-xl text-gray-400 mb-6 w-[98%] sm:w-[40rem]">
               I am proficient in React.js, Node.js, and MongoDB, and have
-              experience working with other technologies such as Redux, Express,
-              and PostgreSQL. In my free time, I enjoy contributing to
-              open-source projects and learning
+              experience working with other technologies such as Express, PostgreSQL and AWS. In my free time, I enjoy contributing to
+              open-source projects, playing games and listening to music.
             </p>
           </div>
         </div>

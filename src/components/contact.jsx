@@ -53,27 +53,27 @@ const Contact = () => {
           <div className=" text-white bg-gray-800 rounded-lg p-8 flex flex-col items-center justify-center">
             <FaEnvelope className="text-3xl mb-2" />
             <h3 className="text-xl font-bold mb-2">Email</h3>
-            <a href="mailto:youremail@example.com" className="text-blue-500 hover:text-blue-700 transition duration-300">
+            <a href="mailto:youremail@example.com" className="text-white-500 hover:text-blue-500 transition duration-300">
               2002anuragksingh@gmail.com
             </a>
           </div>
           <div className="text-white bg-gray-800 rounded-lg p-8 flex flex-col items-center justify-center">
             <FaPhoneAlt className="text-3xl mb-2" />
             <h3 className="text-xl font-bold mb-2">Phone</h3>
-            <a href="tel:+1234567890" className="text-blue-500 hover:text-blue-700 transition duration-300">
+            <a href="tel:+1234567890" className="text-white-500 hover:text-blue-500 transition duration-300">
               +91 8839298745
             </a>
           </div>
           <div className="text-white bg-gray-800 rounded-lg p-8 flex flex-col items-center justify-center">
             <div className="flex items-center mb-8">
               <FaLinkedin className="text-3xl mr-2" />
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 transition duration-300">
+              <a href="https://www.linkedin.com/in/anuragkumar17/" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-blue-500 transition duration-300">
                 LinkedIn
               </a>
             </div>
             <div className="flex items-center mb-2">
               <FaGithub className="text-3xl mr-2" />
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 transition duration-300">
+              <a href="https://github.com/d17012002" target="_blank" rel="noopener noreferrer" className="text-white-500 hover:text-blue-500 transition duration-300">
                 GitHub
               </a>
             </div>

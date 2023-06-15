@@ -23,9 +23,9 @@ function Hero() {
               Welcome to My Portfolio
             </h1>
             <p className="text-lg md:text-xl text-gray-400 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            A showcase of my skills, experience, and creative endeavors. Within these digital pages, you will find a collection of my work, highlighting my skills and dedication to various fields.
             </p>
-            <a href="#" className="bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg font-semibold text-sm md:text-base">
+            <a href="https://drive.google.com/file/d/1n1TYC59tUykIbkfBoPA4cfS0hHqTdTQO/view?usp=drive_link" className="bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg font-semibold text-sm md:text-base">
               Get Resume
             </a>
           </div>

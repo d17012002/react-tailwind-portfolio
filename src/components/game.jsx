@@ -76,6 +76,7 @@ function App() {
           <h1 className="text-base mt-5 text-red-500 font-semibold tracking-wide uppercase">
             {" < "}Flappy Bird Game {" /> "}
           </h1>
+          <p className="text-lg md:text-xl text-gray-400 mb-6 w-[98%] sm:w-[30rem]">Flappy Bird was removed from app stores due to its creator’s concern over its addictive nature.</p>
         </center>
       </div>
       <div className="mx-0 px-0 md:w-1/2 flex justify-center">
