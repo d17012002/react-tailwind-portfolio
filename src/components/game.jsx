@@ -1,4 +1,4 @@
-
+import styled from 'styled-components';
 import { useEffect, useState } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
