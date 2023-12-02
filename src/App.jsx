@@ -5,16 +5,18 @@ import Project from "./components/projects"
 import Experience from "./components/experience"
 import Contact from "./components/contact"
 import Game from "./components/game"
+import Skills from "./components/skills"
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="App bg-gray-900">
       <Navbar />
       <Hero />
       <About />
-      <Experience />
+      <Skills />
       <Game />
+      <Experience />
       <Project />
       <Contact />
     </div>

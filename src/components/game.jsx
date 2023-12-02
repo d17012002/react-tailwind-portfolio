@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { useEffect, useState } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const BIRD_HEIGHT = 28;
 const BIRD_WIDTH = 33;
@@ -11,6 +13,11 @@ const OBJ_SPEED = 8;
 const OBJ_GAP = 200;
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration:1500
+    });
+  }, [])
   const [isStart, setIsStart] = useState(false);
   const [birdpos, setBirspos] = useState(300);
   const [objHeight, setObjHeight] = useState(0);
@@ -67,8 +74,8 @@ function App() {
     else setBirspos((birdpos) => birdpos - 50);
   };
   return (
-    <section className="bg-gray-900 p-5 sm:p-19 md:flex md:items-center justify-center">
-      <div className="px-4 md:w-1/2">
+    <section data-aos="zoom-in" className="bg-gray-900 p-5 sm:p-19 md:flex md:items-center justify-center">
+      <div  className="px-4 md:w-1/2">
         <center>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             How far can you go?
@@ -77,7 +84,7 @@ function App() {
             {" < "}Flappy Bird Game {" /> "}
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-6 w-[98%] sm:w-[30rem]">Flappy Bird was removed from app stores due to its creator’s concern over its addictive nature.</p>
-        </center>
+        </center> 
       </div>
       <div className="mx-0 px-0 md:w-1/2 flex justify-center">
         <Home onClick={handler}>

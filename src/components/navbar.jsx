@@ -5,7 +5,7 @@ function Navbar() {
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <a href="#" class="text-xl sm:text-2xl font-semibold text-white font-mono ">
-              {"</ anurag kumar >"}
+              {"< anurag kumar />"}
             </a>
           </div>
           <div className=" grid justify-items-end h-[100%] roll-animation">
